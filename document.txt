@@ -26,3 +26,15 @@ webpack配置文件
 webpack.config.js
 
 .babelrc -- babel预设文件
+
+
+
+
+yeoman 项目生成器
+网址：yeoman.io
+安装命令:
+npm install -g yo
+
+react项目生成器
+generator-react-webpack
+

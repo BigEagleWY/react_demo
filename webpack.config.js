@@ -1,3 +1,4 @@
+const webpack = require("webpack");
 module.exports = {
   entry: "./index.js",
   output: {
@@ -5,6 +6,14 @@ module.exports = {
     filename: "bundle.js"
   },
   devtool: "source-map", //开发工具
+  plugins: [
+    new webpack.optimize.CommonsChunkPlugin({'name':'vendor', 'filename':'vendor-bundle.js'}),
+    new webpack.optimize.UglifyJsPlugin({
+        compress: {
+          warnings: false
+        }
+      })
+  ],
   module: {
     loaders: [{
         test: /\.css$/,
