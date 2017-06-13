@@ -1,0 +1,67 @@
+{
+    "env": {
+        "browser": true,
+        "amd": true
+    },
+    "rules": {
+        "camelcase":"warn",
+        "no-console": "warn",
+        "no-empty": "warn",
+        "default-case":"warn",
+        "no-empty-function":"warn",
+        "no-fallthrough":"warn",
+        "vars-on-top":"warn",
+        "no-unused-vars":"warn",
+        "no-multiple-empty-lines":"warn",
+        "no-cond-assign": "error",
+        "no-debugger": "error",
+        "no-extra-parens": "error",
+        "no-extra-semi": "error",
+        "use-isnan":"error",
+        "block-scoped-var":"error",
+        "no-eval":"error",
+        "no-loop-func":"error",
+        "no-return-assign":"error",
+        "no-label-var":"error",
+        "no-undef-init":"error",
+        "no-use-before-define":"error"
+    }
+
+}
+
+
+/*
+eslint检测规则
+
+1. 警告
+不推荐使用console -- no-console
+不推荐出现空语句块 -- no-empty
+不推荐switch语句中缺省default分支 -- default-case
+不推荐出现空函数 -- no-empty-function
+不推荐case语句落空 -- no-fallthrough
+不推荐出现未使用的变量 -- no-unused-vars
+不推荐出现多行空行 -- no-multiple-empty-lines
+
+要求所有的var声明出现在它们的作用于的顶部 -- vars-on-top
+要求使用驼峰命名法约定 -- camelcase
+
+2.报错
+禁止在条件表达式中出现赋值操作 -- no-cond-assign
+禁用debugger -- no-debugger
+禁止不必要的括号 -- no-extra-parens
+禁止不必要的分号 -- no-extra-semi
+禁用eval() -- no-eval
+禁止在循环中出现函数声明和表达式 -- no-loop-func
+禁止在return语句中出现赋值 -- no-return-assign
+禁止标签与变量同名 -- no-label-var
+禁止将变量初始化为undefined -- no-undef-init
+禁止在变量定义之前使用该变量 -- no-use-before-define
+
+要求使用isNaN()检查NaN -- use-isnan
+强制把变量的使用限制在定义的范围内 -- block-scoped-var
+
+
+
+
+
+*/
