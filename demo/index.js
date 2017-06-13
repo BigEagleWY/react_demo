@@ -7,7 +7,7 @@ window.onload = function() {
 
   var test = document.getElementById("test");
   ReactDOM.render( 
-    <Test name='react' /> ,
+    <Test name='react native' /> ,
     test
   )
 }
