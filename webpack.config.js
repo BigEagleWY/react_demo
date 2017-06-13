@@ -1,13 +1,13 @@
-const webpack = require("webpack");
+var webpack = require("webpack");
+
 module.exports = {
-  entry: "./index.js",
+  entry: "./demo/index.js",
   output: {
     path: __dirname,
-    filename: "bundle.js"
+    filename: "./demo/bundle.js"
   },
   devtool: "source-map", //开发工具
   plugins: [
-    new webpack.optimize.CommonsChunkPlugin({'name':'vendor', 'filename':'vendor-bundle.js'}),
     new webpack.optimize.UglifyJsPlugin({
         compress: {
           warnings: false

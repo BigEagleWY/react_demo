@@ -25,3 +25,22 @@
 - webpack配置文件 -- webpack.config.js
 
 - .babelrc -- babel预设文件
+
+
+## react简介
+1. 作为UI
+
+
+
+2. 虚拟DOM  
+2.1 不直接操作DOM来提升性能
+
+
+
+
+3. 组件化
+3.1 定义好的组件可以组合使用也可以重复使用  
+
+## react学习准备
+
+
