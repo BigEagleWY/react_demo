@@ -44,3 +44,13 @@
 ## react学习准备
 
 
+## 开发环境和常用插件
+### 开发工具
+- atom
+- visual studio code
+### 常用插件
+- 浏览器浏览功能 open-in-browser
+- 分页显示HTML页面效果 html preview
+- 文件路径自动补全 path autocomplete
+
+
