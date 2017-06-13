@@ -1,20 +1,13 @@
-const React = require('react');
+const React = require("react");
+const ReactDOM = require("react-dom");
 
-class Test extends React.Compoent {
-  constructor(...args) {
-    super(...args);
-  }
-
-  render() {
-    return <h1 > hello react < /h1>;
-  }
-}
+import Test from "./test.js";
 
 window.onload = function() {
 
-  var $test = document.getElementById("test");
-  ReactDOM.render( <
-    Test / > ,
-    $test
+  var test = document.getElementById("test");
+  ReactDOM.render( 
+    <Test /> ,
+    test
   )
 }
