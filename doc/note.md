@@ -41,8 +41,6 @@
 3. 组件化
 3.1 定义好的组件可以组合使用也可以重复使用  
 
-## react学习准备
-
 
 ## 开发环境和常用插件
 ### 开发工具
@@ -54,3 +52,15 @@
 - 文件路径自动补全 path autocomplete
 
 
+## 组件生存周期
+- componentWillMount 创建之前
+- componentDidMount 创建之后
+- componentWillUpdate 更新之前
+- componentDidUpdate 更新之后
+- componentWillUnmount 卸载之前
+- componentWillReceiveProps 组件参数更新
+
+备注：没有componentDidUnmount，原因是组件已卸载，无法产生事件。
+
+## 组件状态
+- 组件内节点（node）ref and this.refs

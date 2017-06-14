@@ -1,4 +1,4 @@
-const React = require('react');
+var React = require('react');
 
 class Test extends React.Component {
   constructor(...args) {
